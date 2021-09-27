@@ -1,0 +1,5 @@
+go4Code\Restaurante\controller\MenuController.class
+go4Code\Restaurante\service\MenuService.class
+go4Code\Restaurante\repository\MenuRepository.class
+go4Code\Restaurante\model\Menu.class
+go4Code\Restaurante\RestauranteApplication.class
