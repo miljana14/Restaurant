@@ -1,0 +1,44 @@
+.background{
+    margin: 0px 100px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    padding: 70px;
+    padding-top: 20px;
+}
+
+.navbar-right {
+margin: 0px 100px;
+} 
+
+ul{
+	list-style:none;
+}
+
+.nav-item{
+	display: inline-block;
+    padding: 0px 10px;
+
+}
+
+.navbar-brand {
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 100px;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    display: inline-block;
+    margin: 0px;
+    margin-right: 100px;
+    
+}
+
+
+.welcome {
+    font-size: 58px;
+}
+
+.welcomeMessage {
+    font-size: 21px;
+}

@@ -1,0 +1,16 @@
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #E0E0E0;
+  }
+
+#table {
+  margin: 20px 100px;
+}
+
+#search-box {
+  margin-left: 100px;
+}
+
+.buttonClass {
+  margin-right: 100px;
+  float: right;
+}

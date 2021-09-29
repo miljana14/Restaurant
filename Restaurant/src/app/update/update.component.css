@@ -1,0 +1,41 @@
+.form-control {
+    width: 300px;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}  
+
+.form {
+    float: right;
+    margin-right:100px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #E0E0E0;
+  }
+
+#table {
+  margin: 20px 100px;
+}
+
+#search-box {
+  margin-left: 100px;
+}
+
+.buttonClass {
+  margin-right: 100px;
+  float: right;
+}
+
+.div-btn {
+    margin-top: 10px;
+    float: right;
+}

@@ -1,0 +1,33 @@
+
+<span id = "search-box"><input class = "col-lg-3" id= "search-input" type="text"  name="menus" #search [(ngModel)]= "searchText" placeholder = "Search by name or category" ng-change="checkLength()"></span>
+<div class = "buttonClass">
+    <button class="btn btn-light" (click)="previousPage()" [disabled]="page == 0"><<</button>
+    <button class="btn btn-light" (click)="nextPage()" [disabled]="last">>></button>
+</div>
+
+<div id="table">
+    <div >
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">
+                    Name
+                </th>
+                <th scope="col">
+                    Category
+                </th>
+                <th scope="col">
+                    Price
+                </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr  *ngFor="let menu of getFilteredMenu()">
+              <td>{{menu.name}}</td>
+              <td>{{menu.category}}</td>
+              <td>{{menu.price}}</td>
+            </tr>
+          </tbody>
+    </table>
+</div>
+</div>
